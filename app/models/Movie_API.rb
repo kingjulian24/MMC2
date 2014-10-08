@@ -3,7 +3,6 @@ require_relative 'Movie_Parser'
 
 class Movie_API
   
-
   def self.get_movie_info(title)
     
     json_movie_data = Movie_Parser.get_json_movie_data(title) # get json data with movie title
